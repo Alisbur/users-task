@@ -1,0 +1,1 @@
+export const DATA_URL = "https://jsonplaceholder.typicode.com/users";

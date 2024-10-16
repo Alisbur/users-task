@@ -1,0 +1,31 @@
+.button {
+  padding: 5px 15px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  color: white;
+  background-color: #4B51EF;
+  line-height: 14px;
+  font-weight: 400;
+  transition: opacity 0.3s;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button:disabled:hover {
+  opacity: 1;
+}
+
+.button_submit {
+  background-color: #52CF4F;
+  ;
+}
+
+.button:disabled {
+  background-color: #AFAFAF;
+  cursor: auto;
+}
